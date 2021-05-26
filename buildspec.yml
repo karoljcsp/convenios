@@ -15,4 +15,7 @@ phases:
     commands:
       - echo Build completed on `date`
 artifacts:
-  files: imagedefinitions.json
+  files: 
+      - appspec.yml
+      - target/SampleMavenTomcatApp.war
+      - scripts/*
